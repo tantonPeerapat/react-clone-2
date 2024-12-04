@@ -40,7 +40,7 @@ const navbar = () => {
           className={
             !nav
               ? "ease-in-out duration-500 fixed top-0 left-[-100%] h-full"
-              : "text-[#638596] fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+              : "z-50 text-[#638596] fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
           }
         >
           <img src={Logo} alt="/" className="m-6" />
